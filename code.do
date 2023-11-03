@@ -1,5 +1,5 @@
 use "/Users/fan/Desktop/maindata.dta",clear
-global vars gender age livarea freinoc ffreinunoc trustom edu frewalp lnpgdp lncysj lnwage baiduindex
+global vars gender age livarea freinoc freinunoc trustom edu frewalp lnpgdp lncysj lnwage baiduindex
 
 ********Table1******
 logout,save(mytable_Table 1) word replace : sum tggap dswz govres govtran  poleff $vars 
